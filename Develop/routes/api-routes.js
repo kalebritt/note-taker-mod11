@@ -45,21 +45,8 @@ router.post("/notes", (req, res) => {
 
 //finish building server
 //create delete route: similar to 'post' route- /notes/:id
+//ask TA about the following code
 router.delete("/notes", (req, res) => {
-    fs.readFile("../db/db.json", (err, data) => {
-      if (err) {
-        throw err;
-      } else {
-        var notes = [];
-        if (data) {
-          notes = JSON.parse(data);
-        }
-        return res.json(notes);
-      }
-    });
-  });
-  
-  router.post("/notes", (req, res) => {
     fs.readFile("../db/db.json", (err, data) => {
       if (err) {
         throw err;
