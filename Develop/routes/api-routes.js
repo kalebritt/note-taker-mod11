@@ -3,6 +3,8 @@ const path = require("path");
 const fs = require("fs");
 // const res = require("express/lib/response");
 
+
+//get route
 router.get("/notes", (req, res) => {
   fs.readFile("../db/db.json", (err, data) => {
     if (err) {
@@ -17,6 +19,7 @@ router.get("/notes", (req, res) => {
   });
 });
 
+//post route
 router.post("/notes", (req, res) => {
   fs.readFile("../db/db.json", (err, data) => {
     if (err) {
