@@ -49,7 +49,9 @@ router.post("/notes", (req, res) => {
 //finish building server
 //create delete route: similar to 'post' route- /notes/:id
 //ask TA about the following code
-router.delete("/notes", (req, res) => {
+// :/id
+// req.params
+router.delete("/notes/:id", (req, res) => {
     fs.readFile("../db/db.json", (err, data) => {
       if (err) {
         throw err;
@@ -61,6 +63,7 @@ router.delete("/notes", (req, res) => {
         var currentNote = req.body;
         currentNote.id = notes.length;
         notes.delete(currentNote);
+        //warning flag below!!! may not exist: fs.delete
         fs.delete(
           path.join(__dirname, "../db/db.json"),
           JSON.stringify(notes),

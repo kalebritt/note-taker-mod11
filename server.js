@@ -1,4 +1,4 @@
-//dependancies andexpress app
+//dependancies and express app
 const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 3001;
