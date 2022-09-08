@@ -1,9 +1,9 @@
 //define 'let' variables 
-let noteTitle = $(".note-title");
-let noteText = $(".note-textarea");
-let saveNoteBtn = $(".save-note");
-let newNoteBtn = $(".new-note");
-let noteList = $(".list container .list-group");
+// let noteTitle = $(".note-title");
+// let noteText = $(".note-textarea");
+// let saveNoteBtn = $(".save-note");
+// let newNoteBtn = $(".new-note");
+// let noteList = $(".list container .list-group");
 
 if (window.location.pathname === '/notes') {
   noteTitle = document.querySelector('.note-title');
