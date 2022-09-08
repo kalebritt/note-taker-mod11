@@ -23,10 +23,10 @@ As well as a screenshot of the app in action in VS code.
 ![app in action on VS code](/assets/profile-generator-mod10-vscode.png)
 
 # Credits
-I'd like to thank the all-knowing Jude C. for her as always tremendous assistance without which this project would have been exceedingly more difficult and time consuming!
+My thanks to Collin P. and his other-wordly knowledge without which I'd undoubtedly still be working on this app.
 
 # License
 
 
 # Installation 
-'npm i' is a good place to start.
+'npm i' is a good place to start!
