@@ -6,9 +6,9 @@ const fs = require("fs");
 const path = require("path");
 
 //routes
-const apiRoute = require("./Develop/routes/api-routes");
+const apiRoute = require("./routes/api-routes");
 
-const clientRoute = require("./Develop/routes/client-routes");
+const clientRoute = require("./routes/client-routes");
 
 // boilerplate?
 app.use(express.urlencoded({ extended: true }));
