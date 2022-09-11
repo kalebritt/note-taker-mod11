@@ -1,0 +1,24 @@
+{
+  "name": "note-taker-mod11",
+  "version": "1.0.0",
+  "description": "[Team Generator] (https://kalebritt.github.io/)note-taker-mod11",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalebritt/note-taker-mod11.git"
+  },
+  "author": "k",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalebritt/note-taker-mod11/issues"
+  },
+  "homepage": "https://github.com/kalebritt/note-taker-mod11#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "path": "^0.12.7"
+  }
+}
