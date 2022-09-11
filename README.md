@@ -4,7 +4,6 @@
 ## Description
 Interested in taking some notes?  You've come to the right place!  This app allows the user to write and save any note of their choosing.  Going to the grocery store?  Use this app to track all your tricky products!  Forgot how to tie your shoes?  No worries!  Use this app to take notes of your favorite youtube shoe tying tutuorial!  The possibilites are literally endless!
 
-[Check it!](https://watch.screencastify.com/v/ewpUHBw52j6HL1tP7G7I)
 
 ## Table of Contents
 
@@ -16,11 +15,8 @@ Interested in taking some notes?  You've come to the right place!  This app allo
 # Usage
 Below is a screenshot of the deployed app.
 
-![screenshot of app deployed](/assets/Screenshot%20profile-generator-mod10.png)
+![screenshot of app deployed](/assets/screenshot/screenshot-mod11.png)
 
-As well as a screenshot of the app in action in VS code.
-
-![app in action on VS code](/assets/profile-generator-mod10-vscode.png)
 
 # Credits
 My thanks to Collin P. and his other-wordly knowledge without which I'd undoubtedly still be working on this app.
