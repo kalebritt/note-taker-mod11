@@ -6,7 +6,7 @@ const fs = require("fs");
 
 //get route
 router.get("/notes", (req, res) => {
-  fs.readFile("../db/db.json", (err, data) => {
+  fs.readFile("./db/db.json", (err, data) => {
     if (err) {
       throw err;
     } else {
@@ -21,7 +21,7 @@ router.get("/notes", (req, res) => {
 
 //post route
 router.post("/notes", (req, res) => {
-  fs.readFile("../db/db.json", (err, data) => {
+  fs.readFile("./db/db.json", (err, data) => {
     if (err) {
       throw err;
     } else {
@@ -52,7 +52,7 @@ router.post("/notes", (req, res) => {
 // :/id
 // req.params
 router.delete("/notes/:id", (req, res) => {
-    fs.readFile("../db/db.json", (err, data) => {
+    fs.readFile("./db/db.json", (err, data) => {
       if (err) {
         throw err;
       } else {
