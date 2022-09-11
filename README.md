@@ -1,5 +1,5 @@
 # Note Taker Starter Code
-[Take Some Notes!](https://kalebritt.github.io/)note-taker-mod11
+[Take Some Notes!](https://kalebritt.github.io/note-taker-mod11/)
 
 ## Description
 Interested in taking some notes?  You've come to the right place!  This app allows the user to write and save any note of their choosing.  Going to the grocery store?  Use this app to track all your tricky products!  Forgot how to tie your shoes?  No worries!  Use this app to take notes of your favorite youtube shoe tying tutuorial!  The possibilites are literally endless!
