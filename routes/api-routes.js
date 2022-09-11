@@ -62,19 +62,19 @@ router.delete("/notes/:id", (req, res) => {
         }
         var currentNote = req.body;
         currentNote.id = req.params.id;
-        notes.delete(currentNote);
-        
-        //warning flag below!!! may not exist: fs.delete
-        // fs.delete(
-        //   path.join(__dirname, "../db/db.json"),
-        //   JSON.stringify(notes),
-        //   (err, data) => {
-        //     if (err) {
-        //       throw err;
-        //     }
-        //   }
-        // );
-        // res.json(notes);
+        // notes.delete(currentNote);
+        notes.splice(currentNote.id, 1)
+        fs.writeFileSync(
+          path.join(__dirname, "../db/db.json"),
+          JSON.stringify(notes),
+          (err, data) => {
+            if (err) {
+              throw err;
+            }
+          }
+        );
+        res.json(notes);
+
       }
     });
   });
