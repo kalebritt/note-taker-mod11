@@ -61,8 +61,9 @@ router.delete("/notes/:id", (req, res) => {
           notes = JSON.parse(data);
         }
         var currentNote = req.body;
-        currentNote.id = notes.length;
+        currentNote.id = req.params.id;
         notes.delete(currentNote);
+        
         //warning flag below!!! may not exist: fs.delete
         // fs.delete(
         //   path.join(__dirname, "../db/db.json"),
