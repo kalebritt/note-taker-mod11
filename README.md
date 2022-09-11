@@ -15,7 +15,7 @@ Interested in taking some notes?  You've come to the right place!  This app allo
 # Usage
 Below is a screenshot of the deployed app.
 
-![screenshot of app deployed](/assets/screenshot/screenshot-mod11.png)
+![screenshot of app deployed](/public/assets/screenshot/screenshot-mod11.png)
 
 
 # Credits
